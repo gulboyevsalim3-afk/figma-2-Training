@@ -10,17 +10,16 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "v0 App",
+  title: "figma-2-Training",
   description: "Created with v0",
-  generator: "v0.app",
+  generator: "figma-2-Training",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/icon-light.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
